@@ -8,7 +8,7 @@
         <div class="row">
             <div id="image-container" class="col-md-6">
                 {{-- <img src="/img/events/{{ $event->image }}" class="img-fluid" alt="{{ $event->title }}"> --}}
-                <img src="/img/rock.jpg" class="img-fluid" alt="{{ $event->title }}">
+                <img src="/img/events/{{ $event->image }}" class="img-fluid" alt="{{ $event->title }}">
             </div>
 
             <div id="info-container" class="col-md-6">
@@ -26,7 +26,16 @@
                     Dono do Evento
                 </p>
                 <a href="#" id="event-submit" class="btn btn-primary">Confirmar Presença</a>
+
+                <h3>O evento Conta com:</h3>
+                    <ul id="items-list">
+                        @foreach ($event->items as $item)
+                            <li> {{ $item }}</li>
+                        @endforeach
+                    </ul>
             </div>
+
+
             <div class="col-md-12" id="description-container">
                 <h3>Sobre o Evento</h3>
                 <p class="event-description">
