@@ -59,12 +59,10 @@ footer p {
 /* navbar */
 #navbar img {
   width: 40px;
-}
-#navbar .logo {
-    border: none;
-    background-color: #fff;
+  /* background-color: #F2A340; */
 
 }
+
 
 #navbar {
   justify-content: space-between;
@@ -72,7 +70,7 @@ footer p {
   padding: 5px 0;
 }
 
-#navbar a {
+#menu a {
   font-size: 14px;
   color: #fff;
   border: 1px solid;
@@ -80,6 +78,15 @@ footer p {
   border-radius: 10px;
   background-color: #155724;
 }
+/*
+#navbar a {
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid;
+  margin-right: 5px;
+  border-radius: 10px;
+  background-color: #155724;
+} */
 
 #navbar a:hover {
   color: #F2A340;
