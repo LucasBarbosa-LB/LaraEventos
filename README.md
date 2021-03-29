@@ -12,7 +12,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 ## Iniciando o Projeto
 
 Para que seja iniciado o projeto é necessario ter o PHP inslado na maquina.
-Para instalar as dependencias do laravel deve ser dado do compando `composer install`
-Para que a aplicação seja iniciada dever ser criado um arquivo `.env` com os dados do banco de dados utilizado.
-Caso o composer não criar as keys necessarias para executar o projeto é necessario executar o comando `php artisan key:generate`
-Um servidor pode ser iniciado utilizando o comando `php artisan serve `
+- Para instalar as dependencias do laravel deve ser dado do compando `composer install`
+- Para que a aplicação seja iniciada dever ser criado um arquivo `.env` com os dados do banco de dados utilizado.
+- Caso o composer não criar as keys necessarias para executar o projeto é necessario executar o comando `php artisan key:generate`
+- Um servidor pode ser iniciado utilizando o comando `php artisan serve `
